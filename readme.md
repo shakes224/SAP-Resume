@@ -51,7 +51,7 @@ Follow these steps to set up and run this project on your local machine:
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/frontend-cv.git
+    git clone https://github.com/shakes224/SAP-Resume
     ```
 
 2. Navigate to the project directory:
