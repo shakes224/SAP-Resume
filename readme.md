@@ -51,7 +51,7 @@ Follow these steps to set up and run this project on your local machine:
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/frontend-cv.git
+    git clone https://github.com/shakes224/SAP-Resume
     ```
 
 2. Navigate to the project directory:
@@ -67,7 +67,7 @@ Follow these steps to set up and run this project on your local machine:
 
 Here’s a preview of how the **Frontend Developer CV** will look:
 
-![Preview](https://via.placeholder.com/800x600.png?text=CV+Preview)
+![Preview](./src/images/Banner.png)
 
 ## 📜 License
 
@@ -77,4 +77,4 @@ This project is licensed under the **MIT License**.
 
 Feel free to contribute or fork this repository. You can submit issues or pull requests to enhance this CV. 
 
-For any questions or inquiries, feel free to reach out to me at **email@example.com**.
+For any questions or inquiries, feel free to reach out to me at **keketsoleu12@gmaill.com**.
