@@ -77,4 +77,8 @@ This project is licensed under the **MIT License**.
 
 Feel free to contribute or fork this repository. You can submit issues or pull requests to enhance this CV. 
 
+<<<<<<< HEAD
 For any questions or inquiries, feel free to reach out to me at **keketsoleu12@gmaill.com**.
+=======
+For any questions or inquiries, feel free to reach out to me at **keketsoleu12@gmail.com**.
+>>>>>>> 789608369d5eef1bdf9474e71de11954e6a8eeeb
