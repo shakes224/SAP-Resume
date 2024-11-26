@@ -9,6 +9,8 @@
     <title>Portfolio - Keketso</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Navbar -->
@@ -29,15 +31,56 @@
         </video>
         <div class="hero-overlay">
             <h2>Hi, I'm Keketso Leu</h2>
-            <p>Frontend Developer with a passion for design and technology</p>
+            <p>Frontend Developer with a passion for design, technology and cyber security</p>
         </div>
     </section>
 
     <!-- About Me Section -->
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I specialize in creating dynamic, user-friendly websites using HTML, CSS, JavaScript, React, and more.</p>
+        <p>I specialize in creating dynamic, user-friendly websites using HTML, CSS, JavaScript, React, Bootstrap, Tailwind.css, Vue.js and more.
+            I am currently working on obtaining CompTIA+ CySA+ (C0-003) certification.
+        </p>
     </section>
+
+    <section id="tools" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Tools</h2>
+            <div id="toolsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Tool 1 -->
+                    <div class="carousel-item active">
+                        <h5>GitHub</h5>
+                        <img src="/src/images/github_logo.png" class="d-block mx-auto" alt="GitHub Logo">
+                        <p class="mt-2">Version control and collaboration platform.</p>
+                    </div>
+                    <!-- Tool 2 -->
+                    <div class="carousel-item">
+                        <h5>JavaScript</h5>
+                        <img src="/src/images/javascript_logo.png" class="d-block mx-auto" alt="JavaScript Logo">
+                        <p class="mt-2">A programming language for interactive web applications.</p>
+                    </div>
+                    <!-- Tool 3 -->
+                    <div class="carousel-item">
+                        <h5>CSS</h5>
+                        <img src="/src/images/css_logo.png" class="d-block mx-auto" alt="CSS Logo">
+                        <p class="mt-2">Styles and layouts web pages to enhance visual presentation.</p>
+                    </div>
+                    <!-- Add more tools as needed -->
+                </div>
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#toolsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#toolsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
 
     <!-- Projects Section -->
     <section id="projects" class="section">
@@ -69,5 +112,6 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -120,9 +120,9 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+/*button:hover {
     background-color: #008fb3;
-}
+}*/
 
 /* Footer */
 footer {
@@ -134,3 +134,42 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+.carousel {
+    width: 100%; /* Width of carousel */
+    height: 166px; /* Height of carousel */
+  }
+
+  .card-container {
+    width: 100%; /* Width of card container */
+    display: flex; /* Set inline elements */
+  }
+  
+  .card {
+    min-width: 250px; /* Set min width of card */
+    height: 150px; /* Set height of card */
+  }
+
+  .carousel-caption {
+    margin-top: 100px;
+    color: #333; /* Change color as needed */
+}
+
+#tools .carousel-item {
+    text-align: center;
+    color: #fff;
+    padding: 2em 0;
+}
+
+#tools img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
