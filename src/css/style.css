@@ -170,10 +170,13 @@ footer {
     border-radius: 50%;
 }
 
-/* Universal Heading Color */
-h1, h2 {
+/* Specific color for h2 in the #tools section */
+#tools h2 {
     color: #00ccff;
 }
 
-
+/* Specific color for h2 in the #tools section */
+#projects h2 {
+    color: #00ccff;
+}
 
